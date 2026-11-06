@@ -1,0 +1,32 @@
+name: roomairqualiry
+description: "Room air quality monitoring"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.69.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/LuNo.png
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/LuNo.png
+  adaptive_icon_background: "#0F1626"
+  adaptive_icon_foreground: assets/LuNo.png
